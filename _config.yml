@@ -37,7 +37,7 @@ kramdown:
 owner:
   name: SaltyWendigo
   avatar: avatar.jpg
-  job: "Infanstructure Engineer "
+  #job: "Infanstructure Engineer"
   bio: King of the Thunderlizards. Knowledge (Computers) +3. Enjoys Table and Video based games.
   email: cgutshal@gmail.com
   disqus-shortname:
