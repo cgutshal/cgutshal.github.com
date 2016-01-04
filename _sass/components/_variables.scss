@@ -19,12 +19,34 @@ $strong-color:      contrast($background-color, darken($text-color, 32%), lighte
 $subtle-color:      contrast($text-color, lighten($text-color, 16%), darken($text-color, 16%));
 
 $white:             #fff;
-$primary:           #609C7C;
+$primary:           #236943;
+$primary-light:     #609C7C;
 $secondary:         #471C02;
 $success:           #0F4E2D;
 $danger:            #470202;
 $warning:           #943131;
 $info:              #6F3715;
+
+// As hex codes */
+
+$color-primary-0: #236943;	// Main Primary color */
+$color-primary-1: #609C7C;
+$color-primary-2: #3A7F5A;
+$color-primary-3: #0F4E2D;
+$color-primary-4: #013218;
+
+$color-secondary-1-0: #945631;	// Main Secondary color (1) */
+$color-secondary-1-1: #DDA888;
+$color-secondary-1-2: #B37651;
+$color-secondary-1-3: #6F3715;
+$color-secondary-1-4: #471C02;
+
+$color-secondary-2-0: #943131;	// Main Secondary color (2) */
+$color-secondary-2-1: #DD8888;
+$color-secondary-2-2: #B35151;
+$color-secondary-2-3: #6F1515;
+$color-secondary-2-4: #470202;
+
 
 // Tables --------------------
 $table-border-color: #d0d0d0 !default;
