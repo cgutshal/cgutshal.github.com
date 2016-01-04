@@ -21,7 +21,6 @@
   }
 }
 .cover-card {
-  background: $background-color;
   color: $white;
   .avatar {
     border-radius: 50%;
@@ -43,7 +42,7 @@
   }
   .author_job {
     display: block;
-    color: $secondary;
+    color: $white;
     font-size: 0.8em;
     font-weight: 700;
     text-transform: uppercase;
@@ -52,7 +51,7 @@
   }
   .author_bio {
     background: $background-color;
-    color: $secondary;
+    color: $white;
     display: block;
   }
   @include media-query($medium-screen) {
@@ -71,10 +70,10 @@
       display: inline-block;
       margin-left: 1em;
       a.social-link-item {
-        color: $secondary;
+        color: $white;
         &:hover,
         &:focus {
-          color: lighten($secondary, 14%);
+          color: lighten($white, 14%);
         }
       }
     }
@@ -92,11 +91,15 @@
       margin-top: 1em;
       text-transform: lowercase;
       font-size: 85%;
-      color: $secondary;
+      color: $white;
       &:hover,
       &:focus {
-        color: lighten($secondary, 14%);
+        color: lighten($white, 14%);
       }
     }
   }
+}
+
+.sidebar-card {
+  background-color: $secondary;
 }

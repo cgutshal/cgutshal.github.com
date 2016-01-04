@@ -4,14 +4,15 @@
   {% if author.avatar %}
   <img src="{{ site.url }}/img/{{ author.avatar }}" alt="" class="avatar">
   {% endif %}
-  <span class="author_name">{{ author.name }}</span>
-  <span class="author_job">{{ author.job }}</span>
+  <div class="sidebar-card">
+    <span class="author_name">{{ author.name }}</span>
+    <span class="author_job">{{ author.job }}</span>
   <span class="author_bio mbm">{{ author.bio }}</span>
   <nav class="nav">
     <ul class="nav-list">
       {% assign first = '' %}
 
-      {% for page in site.pages %} 
+      {% for page in site.pages %}
       {% if page.title %}
       <li class="nav-item">
         {% unless first == '' %}
@@ -21,9 +22,10 @@
 
         <a href="{{ site.url }}{{ page.url }}">{{ page.title }}</a>
       </li>
-      {% endif %} 
+      {% endif %}
       {% endfor %}
     </ul>
   </nav>
   {% include social-links.html %}
+  </div>
 </div>
